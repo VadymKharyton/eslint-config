@@ -1,0 +1,22 @@
+{
+  "name": "@vadymkharyton/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint config",
+  "main": "index.js",
+  "author": "Vadym Kharyton",
+  "license": "ISC",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VadymKharyton/eslint-config.git"
+  }
+}
